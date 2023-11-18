@@ -19,3 +19,13 @@ int main(void)
     cout<<mycart.totamt();
     return 0;
 }
+
+/*
+    Name :Musthaffa Mohommedrafi Shaik
+    USN : 1BI20CS112
+    COLLEGE : Bangalore Institute Of Technology
+    Phone Number : 8329090485
+    email : musthaffawork@gmail.com
+    grad_year : 2024
+*/
+
