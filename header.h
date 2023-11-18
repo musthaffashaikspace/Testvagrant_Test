@@ -64,12 +64,13 @@ class Cart
 
                 float amt=int(products[i].getprice()*products[i].getquantity());
                 float gstpaid=(products[i].getgst()/100)*amt;
-                float totamt=amt+gstpaid;
+                float totalamt=amt+gstpaid;
                 if(products[i].getprice()>=500)
                 {
-                    totamt=totamt-((5/100)*totamt);
+                    totalamt=totalamt-((5/100)*totalamt);
                 }
-                return totamt;
+                ans+=totalamt;
             }
+            return ans;
         }
 };
